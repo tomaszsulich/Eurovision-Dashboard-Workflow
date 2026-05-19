@@ -7,21 +7,20 @@ IF NOT EXIST Eurovision-Dashboard-Workflow\.git (
 
 cd Eurovision-Dashboard-Workflow
 
-git add .
-git commit -m "docs: update workflow script"
-
 :: Create feature branch (skip if branch already exists)
-git branch --list feature-readme >nul
+git checkout feature-readme 2>nul
 IF ERRORLEVEL 1 (
     git checkout -b feature-readme
-) ELSE (
-    git checkout feature-readme
 )
+
+git add .
+git commit -m "docs: update workflow script"
 
 echo ## Planned features > projekt.md
 echo - Interactive filters by year and decade >> projekt.md
 echo - Average normalized points analysis >> projekt.md
 echo - Jury and televoting comparison >> projekt.md
 
+git add .
 git commit -m "docs: expand project feature description"
-git push
+git push -u origin feature-readme
