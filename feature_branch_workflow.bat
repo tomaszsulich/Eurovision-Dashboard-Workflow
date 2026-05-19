@@ -19,5 +19,5 @@ echo - Average normalized points analysis >> projekt.md
 echo - Jury and televoting comparison >> projekt.md
 
 git add .
-git commit -m "docs: expand project feature description"
+git commit -m "docs: change project feature description"
 git push
