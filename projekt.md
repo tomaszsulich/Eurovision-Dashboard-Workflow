@@ -1,8 +1,8 @@
-\# Eurovision Dashboard Project
+# Eurovision Dashboard Project
 
 
 
-\## Project description
+## Project description
 
 
 
@@ -14,15 +14,15 @@ The dashboard will focus on:
 
 
 
-\* jury and televoting analysis,
+* jury and televoting analysis,
 
-\* country performance comparisons,
+* country performance comparisons,
 
-\* voting patterns between countries,
+* voting patterns between countries,
 
-\* historical Eurovision trends,
+* historical Eurovision trends,
 
-\* interactive data visualizations.
+* interactive data visualizations.
 
 
 
@@ -30,29 +30,29 @@ The project is intended as both a data analysis practice project and an opportun
 
 
 
-\## Planned technologies
+## Planned technologies
 
 
 
-\* Power BI
+* Power BI
 
-\* Git \& GitHub
+* Git \& GitHub
 
-\* CSV/XLSX datasets
-
-
-
-\## Planned features
+* CSV/XLSX datasets
 
 
 
-\* Interactive filters by year, decade and country
+## Planned features
 
-\* Heatmaps and score comparisons
 
-\* Jury vs televoting analysis
 
-\* Historical statistics dashboard
+* Interactive filters by year, decade and country
 
-\* Exportable reports and screenshots
+* Heatmaps and score comparisons
+
+* Jury vs televoting analysis
+
+* Historical statistics dashboard
+
+* Exportable reports and screenshots
 
