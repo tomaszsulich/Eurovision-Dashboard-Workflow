@@ -8,11 +8,9 @@ IF NOT EXIST Eurovision-Dashboard-Workflow\.git (
 cd Eurovision-Dashboard-Workflow
 
 :: Create feature branch (skip if branch already exists)
-git branch --list feature-readme >nul
+git checkout feature-readme 2>nul
 IF ERRORLEVEL 1 (
     git checkout -b feature-readme
-) ELSE (
-    git checkout feature-readme
 )
 
 git add .
