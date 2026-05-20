@@ -24,3 +24,6 @@ echo - Jury and televoting comparison >> projekt.md
 git add .
 git commit -m "docs: expand project feature description"
 git push -u origin feature-readme
+
+git checkout main
+git branch -d feature-readme
